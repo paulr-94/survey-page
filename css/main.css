@@ -49,7 +49,7 @@ body {
   }
   
   .my-dropdown {
-    width: 566px;
+    width: 466px;
     padding: 16px;
     border-radius: 5px;
     
@@ -66,11 +66,14 @@ body {
   }
   
   #submit {
-    width: 566px;
+    width: 466px;
     padding: 18px;
     border-radius: 5px;
     border: none;
     margin-top: 3%;
     color: white;
     background-color: green;
+    display: block;
+    margin-left:  auto;
+    margin-right: auto;
   }
