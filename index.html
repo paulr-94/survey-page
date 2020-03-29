@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Champions League Survey Form</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">     
+        <link rel="stylesheet" href="./css/main.css" type="text/css">
+    </head>
+
+    <body>
+        <h1 id="title">Champions League Survey Form</h1>
+        <p id="description"><i>Thank you for taking the time to help us improve the platform</i></p>
+
+        <div id="body">
+
+        <form id="survey-form">
+        
+        <label id="name-label" for="name">
+        <p>Name:</p>
+        </label>
+        
+        <input id="name" type="text" placeholder="Enter Your Name" required>
+        
+        
+        <label id="email-label" for="email">
+        <p>Email:</p>
+        </label>
+        
+        <input id="email" type="email" placeholder="Enter Your Email" required>
+        
+        <label id="number-label" for="number">
+        <p>Age:</p>
+        </label>
+        
+        <input id="number" type="number" placeholder="Enter Your Age" min="10" max="99" required>
+        
+        <p>Which Champions League Team do you think was the best over the last 3 seasons?</p>
+        <select class="dropdown my-dropdown">
+            <option value="default"></option>
+            <option value="FC Liverpool">FC Liverpool</option>
+            <option value="Real Madrid CF">Real Madrid CF</option>
+            <option value="Ajax Amsterdam">Ajax Amsterdam</option>
+            <option value="FC Barcelona">FC Barcelona</option>
+        </select>
+        
+        <p>Who is the most dominant player of the Champions League over the last 5 seasons?</p>
+        <select class="dropdown my-dropdown" >
+            <option value="default"></option>
+            <option value="Lionel Messi">Lionel Messi</option>
+            <option value="Cristiano Ronaldo">Cristiano Ronaldo</option>
+            <option value="Hakim Ziyech">Hakim Ziyech</option>
+            <option value="Robert Lewandowski">Robert Lewandowski</option>
+        </select>
+        
+        <p>Which stadium do you like the most in europe?</p>
+        
+        <input type="radio" name="stadium" value="1">Camp Nou</input>
+        <br>
+        <input type="radio" name="stadium" value="2">Signal Iduna Park</input>
+        <br>
+        <input type="radio" name="stadium" value="3">Wembley Stadium</input>
+        <br>
+        <input type="radio" name="stadium" value="4">San Siro</input>
+
+        <p>Choose your favourite retired player(s):</p>
+        <input type="checkbox" name="Ronaldinho" value="1">Ronaldinho</input>
+        <br>
+        <input type="checkbox" name="Ronaldo Nazário" value="2">Ronaldo Nazário</input>
+        <br>
+        <input type="checkbox" name="Zinédine Zidane" value="3">Zinédine Zidane</input>
+        <br>
+        <input type="checkbox" name="Andrés Iniesta" value="4">Andrés Iniesta</input>
+        <br>
+        <input type="checkbox" name="Kaká" value="5">Kaká</input>
+        <br>
+        <input type="checkbox" name="Xavi" value="6">Xavi</input>
+
+        <textarea id="comment" rows="4" cols="40">Add Your Comment Here</textarea>
+
+        <input id="submit" type="submit" value="Submit"></input>
+        </form>
+        </div>
+
+    </body>
+
+    <footer>
+        <script src="./js/main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </footer>    
+</html>

@@ -1,0 +1,76 @@
+body {
+    text-align:center;
+    font-family:sans-serif;
+    background-image:linear-gradient(to bottom right, #33adff , #7300e6);
+    color:white;
+  }
+  
+  #title {
+    font-size: 44px;
+    font-family: sans-serif;
+  }
+  
+  #description {
+    font-size: 19px;
+    font-family: helvetica;
+   
+  }
+  
+  #body {
+    background-color: rgba(0,0,0,0.6);
+    width: 570px;
+    padding: 25px;
+    text-align: left;
+    border-radius: 12px;
+    margin: auto;
+    font-size: 18px;
+    color: white;
+  }
+  
+  #name {
+    width: 530px;
+    padding: 16px;
+    border-radius: 10px;
+    
+  }
+  
+  #email {
+    width: 530px;
+    padding: 16px;
+    border-radius: 10px;
+    
+  }
+  
+  #number {
+    width: 530px;
+    padding: 16px;
+    border-radius: 5px;
+    
+  }
+  
+  .my-dropdown {
+    width: 566px;
+    padding: 16px;
+    border-radius: 5px;
+    
+  }
+  
+  #comment {
+    
+   width: 520px;
+   padding: 22px;
+   border-radius: 5px;
+   margin-top: 3%;
+   border: none;
+   
+  }
+  
+  #submit {
+    width: 566px;
+    padding: 18px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 3%;
+    color: white;
+    background-color: green;
+  }
